@@ -1,0 +1,16 @@
+package com.run;
+class Con1 {
+    private int a;
+    public void show(){
+    	a=10;
+    	System.out.println(a);
+    }
+}
+public class Main {
+
+    public static void main(String[] args) {
+    	Con1 obj = new Con1();
+		obj.show();
+    }
+}
+

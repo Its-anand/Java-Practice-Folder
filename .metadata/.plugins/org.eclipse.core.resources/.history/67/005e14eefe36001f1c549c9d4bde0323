@@ -1,0 +1,10 @@
+package com.run;
+import com.practice.ThisInNestedClass;
+public class Main{
+	public static void main(String[] args) {
+		ThisInNestedClass obj = new ThisInNestedClass();
+		ThisInNestedClass.Mclass Mobj = obj.new Mclass();
+		ThisInNestedClass.Mclass.Iclass Iobj = Mobj.new Iclass();
+		Iobj.access();
+	}
+}

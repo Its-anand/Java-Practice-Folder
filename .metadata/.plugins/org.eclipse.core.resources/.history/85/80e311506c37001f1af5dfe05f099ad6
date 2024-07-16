@@ -1,0 +1,14 @@
+package com.run;
+
+
+
+public class Main {
+	class Con {
+	    Con() {
+	        System.out.print("f");
+	    }
+	}
+    public static void main(String[] args) {
+        Con obj = new Con();
+    }
+}

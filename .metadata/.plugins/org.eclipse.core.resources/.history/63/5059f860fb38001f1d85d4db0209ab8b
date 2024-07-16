@@ -1,0 +1,16 @@
+package com.run;
+class Class {
+    private int a;
+    public void a(){
+    	a=10;
+    }
+}
+public class Main {
+
+    public static void main(String[] args) {
+    	Class obj = new Class();
+		obj.a();
+        
+    }
+}
+

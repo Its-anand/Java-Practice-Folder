@@ -1,0 +1,11 @@
+package com.run;
+import com.practice.NestedClass;
+public class Main{
+	public static void main(String[] args) {
+		NestedClass Oobj = new NestedClass();
+		NestedClass.Mclass Mobj = Oobj.new Mclass();
+		NestedClass.Mclass.Iclass Iobj = Mobj.new Iclass();
+		
+		System.out.print(Iobj.a);
+	}
+}

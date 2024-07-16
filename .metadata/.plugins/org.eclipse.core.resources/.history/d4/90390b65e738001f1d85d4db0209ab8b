@@ -1,0 +1,14 @@
+package com.run;
+class Class{
+	
+		public void fun() {
+			System.out.print("hello");
+		}
+	
+}
+public class Main{
+	public static void main(String[] args) {
+		Class object = new Class();
+		object.fun();
+	}
+}

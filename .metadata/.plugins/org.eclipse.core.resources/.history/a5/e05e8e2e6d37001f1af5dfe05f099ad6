@@ -1,0 +1,15 @@
+package com.run;
+
+class Con {
+    private int a;
+    public void a(){
+    	a=10;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Con obj = new Con();
+        obj.a();
+    }
+}

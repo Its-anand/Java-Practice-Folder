@@ -1,0 +1,15 @@
+package com.run;
+public class Main{
+	class VarArgs{
+		public void varargs(int ... a) {
+			for(int value : a) {
+				System.out.println(value);				
+		}
+	}
+		
+	}
+	public static void main(String[] args) {
+		VarArgs obj = new VarArgs();
+		obj.varargs(29,30,59,50);
+	}
+}

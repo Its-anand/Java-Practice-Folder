@@ -1,0 +1,14 @@
+package com.run;
+class nsc{
+	public int a=10;
+	public class InnerClass{
+		public int a=20;
+	}
+}
+public class Main{
+	public static void main(String[] args) {
+		nsc obj = new nsc();
+		nsc.InnerClass Iobj = obj.new InnerClass();
+		System.out.println(Iobj.a);
+	}
+}

@@ -1,0 +1,20 @@
+ package com.run;
+ class Con {
+    private int a;
+
+    public void setA(int value) {
+        a = value;
+    }
+
+    public int getA() {
+        return a;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Con obj = new Con();
+        obj.setA(42);
+        System.out.println("Value of a: " + obj.getA());
+    }
+}

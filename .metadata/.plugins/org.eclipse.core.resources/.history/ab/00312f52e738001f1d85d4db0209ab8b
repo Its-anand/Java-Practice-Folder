@@ -1,0 +1,11 @@
+package com.run;
+class Class{
+	class Clas{
+		public void fun() {
+			System.out.print("hello");
+		}
+	}
+}
+public class Main{
+	
+}

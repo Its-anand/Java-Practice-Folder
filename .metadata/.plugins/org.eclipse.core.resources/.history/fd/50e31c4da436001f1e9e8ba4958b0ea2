@@ -1,0 +1,17 @@
+package com.run;
+class Oclass{
+	public class Mclass{
+		public class Iclass{
+			public int a =10;
+		}
+	}
+}
+public class Main{
+	public static void main(String[] args) {
+		Oclass Oobj = new Oclass();
+		Oclass.Mclass Mobj = Oobj.new Mclass();
+		Oclass.Mclass.Iclass Iobj = Mobj.new Iclass();
+		
+		System.out.print(Iobj.a);
+	}
+}
