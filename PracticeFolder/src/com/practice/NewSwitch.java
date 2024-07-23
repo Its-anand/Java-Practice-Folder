@@ -9,7 +9,7 @@ public class NewSwitch {
 		switch(day) {
 		case "Sunday" -> System.out.println("8pm");
 		default -> System.out.println("6pm");
-		}
+		};
 	}
 
 }
